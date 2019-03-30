@@ -1,0 +1,30 @@
+### Ansible Learnme Lab ###
+#192.168.56.[101:103]
+
+[ansible]
+ansible.learnme.net		ansilbe_host=192.168.56.101 
+
+[db]
+db.learnme.net		ansilbe_host=192.168.56.102
+
+[web]
+web.learnme.net		ansible_host=192.168.56.103
+
+[lab]
+192.168.56.[101:103]
+
+#[R1]
+#R1.learnme.net		ansible_host=192.168.56.11 ansible_network_os=ios ansible_connection=network_cli
+
+#[R2]
+#R2.learnme.net		ansible_host=192.168.56.12 ansible_network_os=ios ansible_connection=network_cli
+
+#[R3]
+#R3.learnme.net		ansible_host=192.168.56.13 ansible_network_os=ios ansible_connection=network_cli
+
+[Routers]
+R1.learnme.net		ansible_host=192.168.56.11 ansible_network_os=ios ansible_connection=network_cli
+R2.learnme.net		ansible_host=192.168.56.12 ansible_network_os=ios ansible_connection=network_cli
+R3.learnme.net		ansible_host=192.168.56.13 ansible_network_os=ios ansible_connection=network_cli
+#192.168.56.[11:13]	ansible_network_os=ios ansible_connection=network_cli
+

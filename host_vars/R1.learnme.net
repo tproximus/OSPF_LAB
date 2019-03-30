@@ -1,0 +1,16 @@
+---
+name: "R1.learnme.net"
+ip: "192.168.56.11"
+user: "ansible"
+inter:
+  - name: "Ethernet1/0"
+    address: "192.168.1.1/30"
+    ospfnetwork: "192.168.1.0"
+    ospfwildcast: "0.0.0.3"
+    ospfarea: 0
+  - name: "loopback 0"
+    address: "172.16.1.1/16"
+    ospfnetwork: "172.16.0.0"
+    ospfwildcast: "0.0.255.255"
+    ospfarea: 1
+
