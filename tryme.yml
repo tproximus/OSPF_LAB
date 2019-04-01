@@ -4,12 +4,6 @@
   become_method: enable
   become_user: ansible
   tasks:
-     - name: debug
-       debug:
-         msg: "{{ item.name }}"
-       with_items:
-         - "{{ inter }}"
-       delegate_to: ansible
      - name: configure interfaces
        ios_l3_interface:
          name: "{{ item.name }}"
