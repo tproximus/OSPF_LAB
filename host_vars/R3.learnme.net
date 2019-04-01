@@ -3,7 +3,7 @@ name: "R3.learnme.net"
 ip: "192.168.56.13"
 user: "ansible"
 inter:
-  - name: "Ethernet1/2"
+  - name: "Ethernet1/1"
     address: "192.168.2.2/30"
     ospfnetwork: "192.168.2.0"
     ospfwildcast: "0.0.0.3"
